@@ -1,0 +1,224 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    font-family: roboto;
+    font-weight:bold;
+    overflow-x: hidden;
+}
+input   {
+    margin-bottom: 10px;
+}
+#c1.card,#c2.card,#c3.card,#c4.card,#c5.card,#c6.card{
+    border: 0;
+}
+.carousel{
+    margin-top:40px;
+}
+.carousel .container2{
+    background: url('https://www.codingdojo.com/blog/wp-content/uploads/coding-bootcamps-vs-cs-degrees.png');
+    position:relative;
+    width:100%;
+    height:500px;
+}
+.center{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: black;
+    opacity:.7;
+}
+#bgtext{
+    padding-top: 120px;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size:24px;
+    font-weight:bolder;
+    color:white;
+}
+
+#c1.card:hover,#c2.card:hover,#c3.card:hover,#c4.card:hover,#c5.card:hover,#c6.card:hover{
+    position: relative;
+    top:-5px;
+    box-shadow:15px 15px 15px rgb(235, 230, 230);
+}
+#c7 i.fa,#c8 i.fa,#c9 i.fa{
+    display: inline-block;
+    border:3px solid black;
+    border-radius: 70%;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.2em 0.2em;
+    color: black;
+}
+.container1 {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .navbar.navbar-expand-lg{
+      padding: 0 10px 0 10px;
+
+  }
+  
+  .navbar .navbar-brand:hover{
+      color: red;
+  }
+  .navbar-dark .navbar-nav .active>.nav-link{
+      color:#35cbdf;
+      border-bottom: 2px solid #35cbdf;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover{
+      color: #35cbdf;
+      border-bottom: 2px solid #35cbdf
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(17, 34, 39,.9);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .container1:hover .overlay {
+    width: 100%;
+  }
+  
+  .text {
+    font-family: roboto;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 80%;
+    left:30%;
+    transform: translate(-50%, -50%);
+  }
+  .text i.fa{
+      color: #35cbdf;
+  }
+
+.fa-cloud,.fa-calendar-o,.fa-database,.fa-bug,.fa-cloud-upload,.fa-phone{
+    color:white;
+}
+#c1 i.fa ,#c2 i.fa,#c3 i.fa,#c4 i.fa,#c5 i.fa,#c6 i.fa{
+    display: inline-block;
+    background: #35cbdf;
+    border-radius: 60%;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  
+  }
+  
+
+.navbar-dark .navbar-brand{
+   
+    color:#35cbdf;
+    font-weight:900;
+}
+.carousel img{
+    width:100%;
+    height:400px;    
+}
+h1{
+    font-weight:bolder;
+}
+h6{
+    font-weight:900;
+}
+.container-fluid{
+    padding: 0;
+}
+#image{
+    width: 100%;
+    height: 100%;
+}
+#img{
+    padding: 0;
+
+}
+#story{
+    padding: 0;
+}
+#ourstory{
+    background: #35cbdf;
+    padding-top: 0;
+    font-weight: bolder;
+    color:white;
+    margin:0
+}
+#ourstory p{
+    padding-left:25px;
+}
+#img{
+    padding:0;
+    width:100%;
+}
+#ourstory .img-fluid{
+    width:100%;
+   
+}
+#aside{
+    background: rgb(233, 226, 217);
+}
+#team img{
+    border-bottom: 5px solid white;
+}
+#newsletter{
+    font-weight: 800;
+    padding-top: 10px;
+    background: #35cbdf;
+    font-weight: 500;
+    color: aliceblue;
+}
+#button{
+    margin-top: 35px;
+    background: black;
+    border-radius:20px;
+    padding-left:20px;
+    padding-right:20px;
+}
+#ak .card-footer{
+    background: #35cbdf;
+}
+#ak .card{
+    border: 0;
+    border-bottom: 5px solid white;
+}
+#ak .card-img-top{
+    margin-left:75px;
+    margin-bottom:10px;
+    width:50%;
+    border-radius: 50%;
+}
+#address{
+    margin:0;
+    background: #35cbdf;
+    color:white;
+    padding-left:30px;
+}
+#submit{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+#footer{
+    background:rgb(67, 151, 133);
+    color:white;
+}
+#footer a{
+    padding-left:10px;
+    color:white;
+    text-decoration:none;
+}
+#pk{
+    padding-top: 10px;
+}

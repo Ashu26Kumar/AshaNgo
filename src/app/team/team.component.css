@@ -1,0 +1,13 @@
+#toggle{
+    display: flex;
+    align-content: flex-end;
+}
+.btn-primary{
+    background: cadetblue;
+}
+.btn-primary:active{
+ background: rebeccapurple
+}
+.btn-primary:focus{
+    background: red;
+}
